@@ -6,8 +6,11 @@
  * 3. After the loop, log out the total number of
  *    hobbies
  */
-
-
+ let hobbies = ["Shopping", "Traveling", "Cooking", "TV"];
+ for ( let i = 0; i < hobbies.length; i++) {
+     console.log(hobbies[1]);
+ }
+ console.log("Total number of hobbies: " + hobbies.length);
 // Example output
 // 1. swimming
 // 2. board games
@@ -25,6 +28,16 @@
  * 4. Output the array and number of times teal was found
  */
 
+const colors = ['pink', 'blue', 'red', 'teal', 'black', 'purple', 'teal', 'orange'];
+let tealCount = 0;
+for (let i = 0; i < colors.length; i++) {
+    if (colors[i] === 'teal') {
+        tealCount++;
+    }
+}
+console.log('Array of Colors:', colors);
+console.log('Number of times "teal" was found:', tealCount);
+
 
 // Example output
 // green, red, teal, orange, teal
@@ -41,6 +54,10 @@
  * 4. Output the original array, odd number array and even number array
  */
 
+int[] arr = {3, 7, 2, 8, 11, 4, 2}
+let oddNumbers = {};
+let evenNumbers = {};
+for (oddNumbers + )
 
 // Example output
 // 3, 7, 2, 8, 11, 4, 2
@@ -57,6 +74,10 @@
  * 4. Output both arrays
  */
 
+let arr1 = [true];
+let arr2 = [false];
+let arr3 = [];
+for (let)
 
 // Example output
 // true, false, true, true
